@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Results = ({score, questionsFiltered, onReset}) => {
+export const Results = ({score, questionsFiltered, onReset  }) => {
       return (
         <div className="flex flex-col justify-evenly items-center shadow xl rounded-lg w-[600px] h-[600px]">
         <h1 className="text-4xl font-bold">resultados</h1>
